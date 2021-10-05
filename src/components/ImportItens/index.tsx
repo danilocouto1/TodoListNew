@@ -6,7 +6,7 @@ type Props = {
     onEnter: (taskName: string) => void
 }
 
-export const importItens = ({ onEnter }: Props) => {
+export const ImportItens = ({ onEnter }: Props) => {
     const [inputText, setInputText] = useState('');
 
     const handleKeyUp = (e: KeyboardEvent) => {
