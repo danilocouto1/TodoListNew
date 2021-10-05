@@ -1,7 +1,10 @@
 import { useState } from "react";
 import * as Componontens from './App.styles'
+import { item } from "./types/item";
 
 const App = () => {
+  const [list, setList] = useState<item[]>([])
+  
   return (
     <Componontens.Container>
       <Componontens.Area>
